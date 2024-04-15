@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-h1{
+    color: rgb(153, 0, 255);
+}
+footer ul li p{
+    color: rgb(153, 0, 255);
+}
+button{
+    background:rgb(153, 0, 255);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1rem;
+}
+.main-header{
+    background:#F0ECF9;
+}
+.corona-statistics .container .virus{
+    text-align: center;
+}
+.corona-statistics .container .virus i{
+    color: rgb(153, 0, 255);
+    font-size: 30px;
+}
+
+.protect-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    /* text-align: center; */
+}
+.protect-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 20px;
+}
+.protect-section h1{
+    color: rgb(153, 0, 255);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.protect-section p{
+    color: #808081;
+}
+.protect-container .list li{
+    margin: 10px 0;
+    color: #808081;
+    list-style-type: none;
+}
+
+.protect-container .protect-text1{
+    margin: 20px 10px;
+}
+.protect-container .protect-text1 li i{
+    color: lightgreen;
+    margin-right: 10px;
+}
+.protect-container .protect-text2{
+    margin: 20px 10px;
+}
+.protect-container .protect-text2 li i{
+    color: indianred;
+    margin-right: 10px;
+}
+
+.protect-container .protect-image{
+margin: 20px 0;
+}
+.protect-container .protect-image img{
+    width: 100%;
+}
+/* ################ symtoms styling ################### */
+
+.symtoms-section {
+    padding: 20px 60px;
+    text-align: center;
+    background:#F0ECF9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.symtoms-section h1{
+    color: rgb(153, 0, 255);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.symtoms-section p{
+    color: #808081;
+}
+.symtoms-section .symtoms-container{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.symtoms-container .symtoms-card{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    width: 400px;
+}
+.symtoms-card .symtoms-text h3{
+    color: rgb(153, 0, 255);
+    font-weight: 700;
+}
+
+.icons-section{
+    width: 100%;
+    display: flex;
+    padding: 20px 80px;
+}
+.icons-section .icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon i{
+    font-size: 30px;
+    color: rgb(153, 0, 255);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.icon .icon-text h5{
+    color: rgb(153, 0, 255);
+    font-size: 19px;
+    font-weight: 700;
+}
+.icon .icon-text p{
+    font-size: 15px;
+    color: #9f9fa0;
+}
+.card-content-sec{
+    padding: 20px 80px;
+    background-color: #F0ECF9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ################ medai query ###################### */
+
+    @media (max-width: 550px){
+        .symtoms-container .symtoms-card{
+            flex-direction: column;
+        }
+        .symtoms-card .symtoms-img img{
+            width: 100%;
+        }
+        .symtoms-section{
+            padding: 10px 30px;
+        }
+    }
