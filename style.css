@@ -113,6 +113,7 @@ margin: 20px 0;
     padding: 30px 40px;
     margin-bottom: 30px;
     width: 400px;
+    box-shadow: 4px 5px 15px #0000004d;
 }
 .symtoms-card .symtoms-text h3{
     color: rgb(153, 0, 255);
@@ -152,11 +153,22 @@ margin: 20px 0;
     color: #9f9fa0;
 }
 .card-content-sec{
-    padding: 20px 80px;
+    padding: 0px 20px;
     background-color: #F0ECF9;
 }
+.card-content-sec .card{
+    background-color: #F0ECF9;
+}
+.card-content-sec .card .card-1{
+    background: #fff;
+    box-shadow: 3px 5px 10px #00000065;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 
-
+.card .card-title{
+    color: rgb(153, 0, 255);
+}
 
 
 
